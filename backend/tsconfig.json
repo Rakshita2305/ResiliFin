@@ -1,14 +1,29 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "ES2020",
     "module": "CommonJS",
     "esModuleInterop": true,
+=======
+    "target": "ES2022",
+    "module": "CommonJS",
+>>>>>>> 394a24531f2f92cab68d45858f3f8198f286f8f4
     "moduleResolution": "Node",
     "outDir": "dist",
     "rootDir": "src",
     "strict": true,
+<<<<<<< HEAD
     "resolveJsonModule": true,
     "skipLibCheck": true
   },
   "include": ["src"]
+=======
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+>>>>>>> 394a24531f2f92cab68d45858f3f8198f286f8f4
 }
